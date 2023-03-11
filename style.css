@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+
+.item{
+    position: relative;
+    background-color: blue;
+    border-bottom: 2px solid black;
+}
+span{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    right: 30px;
+}
+.item input{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+.item label{
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+   
+}
+.item-image{
+    background: gray;
+    text-align: center;
+    padding: 20px;
+}
