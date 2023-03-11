@@ -88,4 +88,15 @@ span{
     .container:hover span{
         opacity: 1;
     }
+    .item:hover .item-image img{
+        width: 300px;
+    } 
+    .item:hover .item-image{
+        max-width: initial;
+        overflow: auto;
+        padding: 10px 0;
+    }
+    .item:hover  span{
+        transform: rotate(0deg);
+    }
 }
